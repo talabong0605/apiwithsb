@@ -109,8 +109,8 @@ const BookSearch = () => {
             onChange={(e) => setQuery(e.target.value)}
             disabled={uploadedBooks.length > 0}
           />
-          <button type="submit" disabled={uploadedBooks.length > 0}>Search</button>
         </form>
+        <button type="submit" disabled={uploadedBooks.length > 0}>Search</button>
       </div>
       <blockquote className="book-quote">
         “A reader lives a thousand lives before he dies. The man who never reads lives only one.”  
